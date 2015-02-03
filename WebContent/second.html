@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>second</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+
+<link href="css/default.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript">
+(function(){function C(){e.globalCompositeOperation="source-over";e.fillStyle="rgba(8,8,12,0.65)";e.fillRect(0,0,f,p);e.globalCompositeOperation="lighter";x=q-u;y=r-v;u=q;v=r;for(var d=0.86*f,l=0.125*f,m=0.5*f,t=Math.random,n=Math.abs,o=z;o--;){var h=A[o],i=h.x,j=h.y,a=h.a,b=h.b,c=i-q,k=j-r,g=Math.sqrt(c*c+k*k)||0.001,c=c/g,k=k/g;if(w&&g<m)var s=14*(1-g/m),a=a+(c*s+0.5-t()),b=b+(k*s+0.5-t());g<d&&(s=0.0014*(1-g/d)*f,a-=c*s,b-=k*s);g<l&&(c=2.6E-4*(1-g/l)*f,a+=x*c,b+=y*c);a*=B;b*=B;c=n(a);k=n(b);g=
+0.5*(c+k);0.1>c&&(a*=3*t());0.1>k&&(b*=3*t());c=0.45*g;c=Math.max(Math.min(c,3.5),0.4);i+=a;j+=b;i>f?(i=f,a*=-1):0>i&&(i=0,a*=-1);j>p?(j=p,b*=-1):0>j&&(j=0,b*=-1);h.a=a;h.b=b;h.x=i;h.y=j;e.fillStyle=h.color;e.beginPath();e.arc(i,j,c,0,D,!0);e.closePath();e.fill()}}function E(d){d=d?d:window.event;q=d.clientX-m.offsetLeft-n.offsetLeft;r=d.clientY-m.offsetTop-n.offsetTop}function F(){w=!0;return!1}function G(){return w=!1}function H(){this.color="rgb("+Math.floor(255*Math.random())+","+Math.floor(255*
+Math.random())+","+Math.floor(255*Math.random())+")";this.b=this.a=this.x=this.y=0;this.size=1}var D=2*Math.PI,f=1E3,p=560,z=600,B=0.96,A=[],o,e,n,m,q,r,x,y,u,v,w;window.onload=function(){try{var nlng=navigator.language||navigator.userLanguage;var lng=nlng.substr(0, 2).toLowerCase();if(lng=="ru"||lng=="uk"||lng=="be")document.getElementById("flw").innerHTML=': <a href="http://www.twitter.com/spielzeugz" target="_blank">Twitter</a> / <a href="http://plus.google.com/116743952899287181520" target="_blank">G+</a> / <a href="http://vk.com/id266298870">VK</a>';}catch(e){}
+o=document.getElementById("mainCanvas");if(o.getContext){m=document.getElementById("outer");n=document.getElementById("canvasContainer");e=o.getContext("2d");for(var d=z;d--;){var l=new H;l.x=0.5*f;l.y=0.5*p;l.a=34*Math.cos(d)*Math.random();l.b=34*Math.sin(d)*Math.random();A[d]=l}q=u=0.5*f;r=v=0.5*p;document.onmousedown=
+F;document.onmouseup=G;document.onmousemove=E;setInterval(C,33);}else document.getElementById("output").innerHTML="Sorry, needs a recent version of Chrome, Firefox, Opera, Safari, or Internet Explorer 9."}})();
+    </script>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script type="text/javascript" src="js/jquery.let_it_snow.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$("canvas.flare").let_it_snow({
+		windPower: 0,
+		speed: 0,
+		color: "#392F52",
+		size:120,
+		opacity: 0.00000001,
+		count: 40,
+		interaction: false
+	});
+
+	$("canvas.snow").let_it_snow({
+		windPower: 3,
+		speed: 1,
+		count: 250,
+		size: 0
+	});
+
+	$("canvas.flake").let_it_snow({
+		windPower: -3,
+		speed: 1,
+		count: 20,
+		size: 10,
+		image: "img/white-snowflake.png"
+	});
+
+});
+
+function gotoThird() {
+	var next = window.parent.url3;
+	$("#ifr1", parent.document).attr("src",next);
+}
+var t1 = window.setTimeout(gotoThird,50*1000);      
+</script>
+
+</head>
+
+<body style="overflow-x: hidden;overflow-y: hidden">	
+	<div id="mainDiv">
+	
+			<div id="code">									
+					<span class="keyword">她不会知道~  </span><br />
+					<span class="keyword"> </span><br />
+					<span class="comments">高一的分班考试排名我文科6理科75，我选择了理</span><br />
+					<span class="comments">只是因为有二分之一的概率跟她分到同一个班</span><br />
+					<span class="comments">她把自己的纽曼MP3借给我的时候，我觉得不能再幸运了</span><br />
+					<span class="comments">我总是带一些吃的让她去抢...</span><br />
+					<span class="comments">因为吃似乎是她人生最大的乐趣之一...</span><br />
+					<span class="comments">她开心的时候，我就很开心了...</span><br />
+					<span class="comments"></span>......<br />
+			     	<span class="comments"></span><br />
+					<span class="comments">考研之后，她是唯一来问我考研情况的人</span><br />
+					<span class="comments">我不喜欢提那些，但我却很感动...</span><br />
+					<span class="comments">我说想追一个学妹，想找她提供一些建议...</span><br />
+					<span class="comments">当时没觉得能追到...只是想找她聊聊天也不错</span><br />
+					<span class="comments">但我发现，当我知道她没有男朋友的时候...</span><br />
+					<span class="comments">我才知道，那些我说的不过是个借口罢了...</span><br />
+					<span class="comments">我更加确定，我的目的就是想找她聊天...</span><br />
+				    <span class="comments"></span>......<br />
+			    	<span class="comments"></span><br />
+				    
+					<span class="comments">她跟我说过，遇到一个自己喜欢的人不容易...</span><br />
+					<span class="comments">一定要努力去追，千万不要放弃...</span><br />
+					<span class="comments">但她却不知道，我喜欢的人就是她...</span><br />
+					<span class="comments">我的心里住了一个她，所以不想让别的女生走进来......</span><br />
+					<span class="comments"></span><br />	
+				
+			</div>
+			
+	</div>
+		<canvas id="garden"></canvas> 				
+		<canvas width="100%" height="100%" class="flare"></canvas>
+		<canvas width="100%" height="100%" class="snow"></canvas>
+		<canvas width="100%" height="100%" class="flake"></canvas>
+<script type="text/javascript">
+
+var together = new Date();
+together.setFullYear(2013, 2, 28);
+together.setHours(20);
+together.setMinutes(0);
+together.setSeconds(0);
+together.setMilliseconds(0);
+
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
+
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
+
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+
+
+
+</body>
+</html>
